@@ -1,0 +1,252 @@
+body {
+
+}
+/* css for nav and logo section */
+.menu {
+	background-color: black;
+	opacity: .8;
+	padding: 20px;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.nav {
+	max-width: 900px;
+	text-align: center;
+	max-height: 100px;
+	margin: auto;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	color: red;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/*----------------------------------------------*/
+
+/*css for banner and motto section  */
+
+.banner {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	box-shadow: 0 10px 10px #888888;
+}
+
+.lg_image {
+	border-top: 2px solid red;
+	width: 50%;
+	min-width: 600px;
+	min-height: 550px;
+	background: url(../img/background/bg1.jpg) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 80px;
+	margin-left: -15px;
+}
+
+.lg_image h1{
+    color: #fff;
+    font-size: 8rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    margin-right: 10%;
+    max-width: 900px;
+
+}
+
+.motto { 
+    text-align: center;
+    margin-left: 15px; 
+    margin-top: -20px; 
+}
+
+.motto h2 {
+    font-size: 25px;
+    padding: 50px; 
+}
+
+.top {
+	margin-left: 20px;
+	border-bottom: 2px solid red;
+}
+
+.center {
+	/*border-bottom: 2px solid red;*/
+	margin-left: 20px;
+	text-transform: uppercase;
+}
+
+.center h2 {
+	text-decoration: none;
+	color: black;
+}
+
+.bottom h1 {
+	color: red;
+	text-transform: uppercase;
+}
+
+
+/* --------------------------------------------------*/
+
+
+/* Css for link section */
+
+.media { 
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   box-shadow: 0 10px 10px #888888;
+}
+
+.link {
+	text-align: center;
+	border: 5px solid #fff;
+	margin: 60px 0;
+}
+
+.link h1 {
+	background-color: black;
+	border: 1px solid black;
+	border-radius: 10px;
+	opacity: 0.7;
+	font-size: 50px;
+	color: #fff; 
+	max-width: 200px;
+	margin: auto;
+	margin-top: 50%;
+}
+
+#shop {
+	background: url(../img/team/shop1.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 350px;
+}
+
+#photo {
+	background: url(../img/team/ryan1.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 350px;
+}
+
+#video {
+	background: url(../img/team/team1.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 350px;
+}
+
+#gym {
+	background: url(../img/team/gym1.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 350px;
+}
+
+
+/*----------------------------------------------*/
+
+/* css for motivation section */
+
+.heading {
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+	padding: 50px;
+}
+
+.motivation {
+	max-width: 1300px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	box-shadow: 0px 15px 5px #888888;
+
+}
+
+.item {
+	border: 1px solid red;
+	width: 280px;
+	height: 220px;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.item h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+#faith {
+	background: url(../img/motto/faith.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#ded {
+	background: url(../img/motto/dedication.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#wp {
+	background: url(../img/motto/willpower.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#passn {
+	background: url(../img/motto/passion.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#luv {
+	background: url(../img/motto/love.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#str {
+	background: url(../img/motto/strenght.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#det {
+	background: url(../img/motto/determination.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
+/*---------------------------------------------------*/
+
+.footer {
+	background-color: black;
+	opacity: 0.8;
+	min-height: 150px;
+}
