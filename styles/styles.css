@@ -39,6 +39,12 @@ body {
     padding: 20px;
 }
 
+.nav a:hover {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 4px solid red;
+}
+
 /*----------------------------------------------*/
 
 /*css for banner and motto section  */
@@ -93,12 +99,23 @@ body {
 .center {
 	/*border-bottom: 2px solid red;*/
 	margin-left: 20px;
-	text-transform: uppercase;
 }
 
 .center h2 {
 	text-decoration: none;
-	color: black;
+	color: red;
+}
+
+.center h2:hover {
+	color: #fff;
+	background-color: black;
+	opacity: .8;
+	border-radius: 60px;
+	transition: 2s;
+}
+
+.center a:hover {
+	text-decoration: none;
 }
 
 .bottom h1 {
@@ -128,7 +145,6 @@ body {
 
 .link h1 {
 	background-color: black;
-	border: 1px solid black;
 	border-radius: 10px;
 	opacity: 0.7;
 	font-size: 50px;
@@ -136,6 +152,15 @@ body {
 	max-width: 200px;
 	margin: auto;
 	margin-top: 50%;
+}
+
+.link h1:hover {
+	color: red;
+	background-color: #fff;
+}
+
+.link a:hover {
+	text-decoration: none;
 }
 
 #shop {
@@ -161,6 +186,13 @@ body {
 
 #gym {
 	background: url(../img/team/gym1.jpg);
+	background-size: cover;
+	width: 300px;
+	height: 350px;
+}
+
+#calender {
+	background: url(../img/team/photo2.jpg);
 	background-size: cover;
 	width: 300px;
 	height: 350px;
@@ -207,6 +239,15 @@ body {
     margin-top: 100px;
 }
 
+.item h3:hover {
+	color: red;
+	transition: 1s;
+}
+
+.item a:hover {
+	text-decoration: none;
+}
+
 #faith {
 	background: url(../img/motto/faith.jpg) no-repeat center center;
 	background-size: cover;
@@ -242,6 +283,64 @@ body {
 	background-size: cover;
 }
 
+
+/* -------------pop up window  ---------*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0; }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1; }
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background-color: black;
+  opacity: 0.7;
+  /* new background design */
+  border-radius: 10px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out; }
+  .popup h2 {
+    margin-top: 0;
+    color: red;
+    font-weight: 900; }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transition: all 200ms;
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 50px;
+   }
+    .popup .close:hover {
+      color: red; }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    background-color: black;
+    font-size: 20px; }
+    .popup .content p {
+      color: #fff; }
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%; }
+
+  .popup {
+    width: 70%; } }
 
 /*---------------------------------------------------*/
 
