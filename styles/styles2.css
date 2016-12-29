@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+}
+
+
+/* css for nav and logo section */
+
+.menu {
+	background-color: black;
+	opacity: .8;
+	padding: 20px;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.nav {
+	max-width: 900px;
+	text-align: center;
+	max-height: 100px;
+	margin: auto;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav a {
+	color: red;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 4px solid red;
+}
+
+/*----------------------------------------------*/
+
+/* Gallery Section */
+
+.gallery {
+	background-color: #F5F5F5;
+	text-align: center;
+}
+
+.title h1 {
+	color: red;
+	text-align: center;
+	font-size: 70px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.pic {
+}
+
+.pic img {
+	border: 5px solid #fff;
+	border-bottom: 30px solid #fff;
+    min-width: 150px;
+	min-height: 150px;
+	max-width: 250px;
+	min-height: 250px;
+	margin: 10px;
+}
+
+.pic h1 {
+	border: 2px solid #fff;
+	width: 250px;
+	height: 250px;
+	background-color: #D1D1D1;
+	border-radius: 20px;
+}
+/*---------------------------------------------*/
