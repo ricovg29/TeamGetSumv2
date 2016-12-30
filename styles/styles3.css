@@ -1,6 +1,4 @@
-
-/* css for nav and logo section */
-
+/*  css for nav and logo section  */
 .header {
 	background-color: black;
 	opacity: .8;
@@ -36,7 +34,6 @@
 	color: red;
     font-size: 20px;
     padding: 20px;
-    text-decoration: none;
 }
 
 .nav a:hover {
@@ -46,12 +43,15 @@
 }
 
 /*----------------------------------------------*/
-
-/* Gallery Section */
+/*  Video section */
 
 .gallery {
 	background-color: #F5F5F5;
 	text-align: center;
+}
+
+.title {
+	box-shadow: 0px 10px 50px #D1D1D1;
 }
 
 .title h1 {
@@ -60,39 +60,32 @@
 	font-size: 60px;
 }
 
-.row {
-	padding: 10px;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap; 
-	box-shadow: 0px 10px 50px #D1D1D1;
-}
 
-.pic {
-	margin: auto;
-}
+.video {
+  margin: auto; }
+  .video .col-md-4 {
+    margin: auto;
+    border: 5px double #D1D1D1;
+    /* background-color: #D1D1D1; */
+    background: url(../img/background/greybg.jpg) no-repeat center center;
+    background-size: cover;
+    /* new background design */
+    max-width: 600px;
+    text-align: center;
+    padding: 10px; }
 
-.pic img {
-	border: 5px solid #fff;
-	border-bottom: 30px solid #fff;
-    min-width: 150px;
-	min-height: 150px;
-	max-width: 250px;
-	min-height: 250px;
-	margin: 5px;
-}
+iframe, video {
+  border: 2px solid #fff;
+  padding: 5px;
+  background-color: #fff; }
 
-.pic h1 {
-	margin-top: 50px;
-	border: 2px solid #fff;
-	width: 250px;
-	height: 250px;
-	background-color: #fff;
-	opacity: .7;
-	border-radius: 20px;
-	color: red;
-}
-/*---------------------------------------------*/
+video {
+  border: 8px solid #fff;
+  background: url(../img/background/greybg.jpg) no-repeat center center;
+  background-size: cover;
+  /* new background design */ }
+
+/* ------------------------------------------*/
 
 /*    Footer Section   */
 .footer {
