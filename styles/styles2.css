@@ -2,10 +2,9 @@ body {
 	margin: 0;
 }
 
-
 /* css for nav and logo section */
 
-.menu {
+.header {
 	background-color: black;
 	opacity: .8;
 	padding: 20px;
