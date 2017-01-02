@@ -16,8 +16,8 @@
 }
 
 .logo img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 20px;
 }
 
@@ -50,7 +50,6 @@
 /* Shop Section */
 
 .shop {
-	border: 1px solid red;
 	display: inline-block;
 	display: flex;
 	justify-content: center;
@@ -59,15 +58,34 @@
 }
 
 .pics {
-	border: 1px solid blue;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
 .item {
-	border: 1px solid green;
+	border: 1px solid grey;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin: 10px;
+    text-align: center;
+}
 
+.item img {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.item h3 {
+	color: red;
+}
+
+.item h4 {
+	color: red;
+}
+
+.item p {
+	color: grey;
 }
 
 /*----------------------------------------------*/
