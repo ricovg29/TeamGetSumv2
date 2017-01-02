@@ -47,6 +47,30 @@
 
 /*----------------------------------------------*/
 
+/* Shop Section */
+
+.shop {
+	border: 1px solid red;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.pics {
+	border: 1px solid blue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.item {
+	border: 1px solid green;
+
+}
+
+/*----------------------------------------------*/
 /* Gallery Section */
 
 .gallery {
@@ -93,6 +117,37 @@
 	color: red;
 }
 /*---------------------------------------------*/
+/*  Video section */
+
+.gallery {
+	background-color: #F5F5F5;
+	text-align: center;
+	box-shadow: 0px 10px 50px #D1D1D1;
+}
+
+.title {
+	box-shadow: 0px 10px 50px #D1D1D1;
+}
+
+.title h1 {
+	color: red;
+	text-align: center;
+	font-size: 60px;
+}
+
+
+.video {
+  margin: auto; }
+
+iframe, video {
+  border: 2px solid #fff;
+  padding: 5px;
+  background-color: #fff; }
+
+video {
+  border: 8px solid #fff;
+}
+/* ------------------------------------------*/
 
 /*    Footer Section   */
 .footer {
