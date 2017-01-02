@@ -61,6 +61,8 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .item {
@@ -74,6 +76,7 @@
 .item img {
 	padding-bottom: 10px;
 	padding-top: 10px;
+	height: 350px;
 }
 
 .item h3 {
@@ -86,6 +89,20 @@
 
 .item p {
 	color: grey;
+}
+
+.item a {
+	color: grey;
+}
+
+.item a:hover {
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 30px;
+    transition: 0.8s;
 }
 
 /*----------------------------------------------*/
@@ -125,6 +142,11 @@
 }
 
 .pic h1 {
+	
+	color: red;
+}
+
+.bio {
 	margin-top: 50px;
 	border: 2px solid #fff;
 	width: 250px;
@@ -132,7 +154,6 @@
 	background-color: #fff;
 	opacity: .7;
 	border-radius: 20px;
-	color: red;
 }
 /*---------------------------------------------*/
 /*  Video section */
@@ -153,9 +174,10 @@
 	font-size: 60px;
 }
 
-
 .video {
-  margin: auto; }
+  margin: auto; 
+
+}
 
 iframe, video {
   border: 2px solid #fff;
