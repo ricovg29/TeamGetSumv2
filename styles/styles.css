@@ -413,7 +413,6 @@
 .footer {
 	background-color: black;
 	opacity: 0.8;
-	min-height: 150px;
 	text-align: center;
 	color: #fff;
 }
@@ -438,14 +437,13 @@
     color: #fff;
 }
 
-.col-md-4 {
-	padding: 20px;
-	margin: 10px;
-}
-
 .col-md-3 {
 	padding: 20px;
 	margin-top: 10px;
+}
+
+.col-md-3 h2 {
+	font-size: 25px;
 }
 
 /*---------------------------------------------------*/
