@@ -133,7 +133,6 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: center;
-   box-shadow: 0 10px 10px #D1D1D1;
 }
 
 .link {
@@ -206,7 +205,7 @@
 	margin-top: 20px;
 	margin-bottom: 30px;
 	box-shadow: 0px 15px 5px #D1D1D1;
-	background-color: black;
+	background-color: red;
 	opacity: .8;
 }
 
@@ -231,20 +230,18 @@
 }
 
 .item1 h2 {
-	color: red;
+	color: #fff;
 	text-transform: uppercase;
 }
 
 .item1 img {
 	width: 100px;
 	height: 100px;
-	opacity: .5;
-	background-color: #EBEBEB;
-	border-radius: 40px;
 }
 
 .item1 p {
-	color: grey;
+	color: #fff;
+	font-size: 20px;
 }
 
 #btn h1 {
@@ -254,6 +251,7 @@
 	margin: auto;
 	width: 200px;
 	padding: 10px;
+	font-size: 50px;
 }
 
 #btn h1:hover {
